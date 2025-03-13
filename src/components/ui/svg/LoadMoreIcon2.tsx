@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoadMoreIcon2 = (props) => {
+const LoadMoreIcon2 = (props = {}) => {
 	return (
 		<svg
 			width={12}

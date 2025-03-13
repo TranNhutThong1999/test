@@ -1,6 +1,9 @@
 import React from 'react';
 
-const FlagIcon = (props) => {
+interface IProps {
+	className?: string;
+}
+const FlagIcon = (props: IProps = {}) => {
 	return (
 		<svg
 			width={25}

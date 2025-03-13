@@ -1,6 +1,9 @@
 import React from 'react';
 
-const VectorRight = (props) => {
+interface IProps {
+	className?: string;
+}
+const VectorRight = (props: IProps = {}) => {
 	return (
 		<svg
 			width={18}

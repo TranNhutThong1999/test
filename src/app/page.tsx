@@ -119,12 +119,12 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="mt-[48px] grid grid-cols-2 gap-x-[32px] gap-y-[48px]">
-							<Card />
-							<Card />
-							<Card />
-							<Card />
-							<Card />
-							<Card />
+							<Card key={1} />
+							<Card key={2} />
+							<Card key={3} />
+							<Card key={4} />
+							<Card key={5} />
+							<Card key={6} />
 						</div>
 					</div>
 					<div className="col-span-1">
@@ -149,7 +149,10 @@ export default function Home() {
 						<div className=" ">
 							<ul className="divide-y divide-gray-100 text-gray-700 text-[18px]">
 								{categories.map((category) => (
-									<li className="flex justify-between py-4 font-medium">
+									<li
+										key={category.name}
+										className="flex justify-between py-4 font-medium"
+									>
 										<span>{category.name}</span>{' '}
 										<span className="text-[#667F93]">
 											{category.value}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LockIcon = (props) => {
+const LockIcon = (props = {}) => {
 	return (
 		<svg
 			width={20}

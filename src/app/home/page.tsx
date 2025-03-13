@@ -27,7 +27,7 @@ const Page = () => {
 						<li className="relative group">
 							<button className="flex items-center hover:text-black p-[8px] gap-[8px]">
 								Giải pháp
-								<DropdownIcon height={10} />
+								<DropdownIcon />
 							</button>
 							<ul className="absolute left-0 pt-2 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block">
 								<li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
@@ -67,7 +67,7 @@ const Page = () => {
 
 					<div className="flex items-center gap-[8px]">
 						<button className="flex items-center bg-gray-200 px-3 py-2 rounded-full">
-							<FlatIcon className="w-5 h-5" />
+							<FlatIcon />
 							<span className="mx-2">VI</span>
 							<DropdownIcon />
 						</button>

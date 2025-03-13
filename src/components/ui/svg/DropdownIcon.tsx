@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DropdownIcon = (props) => {
+const DropdownIcon = (props = {}) => {
 	return (
 		<svg
 			width={11}

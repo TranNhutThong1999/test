@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ScheduleIcon = (props) => {
+const ScheduleIcon = (props = {}) => {
 	return (
 		<svg
 			width={18}
