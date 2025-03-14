@@ -1,42 +1,35 @@
 import Card from '@/components/card';
 import Menu from '@/components/menu';
 
-import Content from './components/Content';
-import ContentRight from './components/ContentRight';
 import Breadcrumb from '@/components/breadcrumb';
-import ZaloIcon from '@/styles/icons/ZaloIcon';
+import BearIcon from '@/styles/icons/BearIcon';
 import FacebookIcon from '@/styles/icons/FacebookIcon';
 import InIcon from '@/styles/icons/InIcon';
-import BearIcon from '@/styles/icons/BearIcon';
 import XIcon from '@/styles/icons/XIcon';
-import Head from 'next/head';
+import ZaloIcon from '@/styles/icons/ZaloIcon';
+import Content from './components/Content';
+import ContentRight from './components/ContentRight';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Foso - Quy trình 5S',
+	description: 'Quy trình 5S là gì? Cách ứng dụng hiệu quả nên biết',
+	keywords: ['application', 'software', 'Foso', 'blog', '5S'],
+	authors: [{ name: 'Foso' }],
+	openGraph: {
+		title: 'Foso - Quy trình 5S',
+		description: 'Quy trình 5S là gì? Cách ứng dụng hiệu quả nên biết',
+		images: ['/FOSO_Logo_Final_1-1400x579.png'],
+		type: 'website',
+	},
+	icons: {
+		icon: '/favicon.ico',
+	},
+};
 
 const Page = () => {
 	return (
 		<>
-			<Head>
-				<title>Foso - Quy trình 5S</title>
-				<meta
-					name="description"
-					content="Quy trình 5S là gì? Cách ứng dụng hiệu quả nên biết"
-				/>
-				<meta
-					name="keywords"
-					content="application, software, Foso, blog, 5S"
-				/>
-				<meta name="author" content="Foso" />
-				<meta property="og:title" content="Foso - Quy trình 5S" />
-				<meta
-					property="og:description"
-					content="Quy trình 5S là gì? Cách ứng dụng hiệu quả nên biết"
-				/>
-				<meta
-					property="og:image"
-					content="/FOSO_Logo_Final_1-1400x579.png"
-				/>
-				<meta property="og:type" content="website" />
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
 			<div className="bg-[#F9FBFC] font-raleway pb-5">
 				<Menu />
 				<div className="grid grid-cols-12 min-w-screen mt-2">

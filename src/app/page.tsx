@@ -1,33 +1,31 @@
 import Menu from '@/components/menu';
-import React from 'react';
 import Image from 'next/image';
-import Head from 'next/head';
 
+import Breadcrumb from '@/components/breadcrumb';
+import { Metadata } from 'next';
 import Content from './components/Content';
 import ContentRight from './components/ContentRight';
 import Pagination from './components/Pagination';
-import Breadcrumb from '@/components/breadcrumb';
+
+export const metadata: Metadata = {
+	title: 'Foso - Blog',
+	description: 'Foso - Blog',
+	keywords: ['application', 'software', 'Foso', 'blog'],
+	authors: [{ name: 'Foso' }],
+	openGraph: {
+		title: 'Foso - Blog',
+		description: 'Foso - Blog',
+		images: ['/FOSO_Logo_Final_1-1400x579.png'],
+		type: 'website',
+	},
+	icons: {
+		icon: '/favicon.ico',
+	},
+};
 
 export default function Home() {
 	return (
 		<>
-			<Head>
-				<title>Foso - Blog</title>
-				<meta name="description" content="Foso - Blog" />
-				<meta
-					name="keywords"
-					content="application, software, Foso, blog"
-				/>
-				<meta name="author" content="Foso" />
-				<meta property="og:title" content="Foso - Blog" />
-				<meta property="og:description" content="Foso - Blog" />
-				<meta
-					property="og:image"
-					content="/FOSO_Logo_Final_1-1400x579.png"
-				/>
-				<meta property="og:type" content="website" />
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
 			<div className="bg-[#F9FBFC] pb-5">
 				<Menu />
 				<div className="flex justify-around">
