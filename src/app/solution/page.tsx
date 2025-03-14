@@ -88,17 +88,17 @@ const Page = () => {
 					</div>
 
 					<div className="grid grid-cols-10 col-span-10 col-start-2 gap-[48px]">
-						<div className="col-span-7">
+						<div className=" sm:col-span-10 lg:col-span-7  sm:order-2 lg:order-1">
 							<Content />
 						</div>
-						<div className="col-span-3 ">
+						<div className=" sm:col-span-10 lg:col-span-3 sm:order-1 lg:order-2">
 							<ContentRight />
 						</div>
-						<div className="space-y-6 col-span-10 mt-5 ">
+						<div className="space-y-6 col-span-10 mt-5 order-3">
 							<div className="font-extrabold text-[36px] leading-[200%]">
 								Bài viết liên quan
 							</div>
-							<div className="grid grid-cols-3 gap-8 !ml-0 ">
+							<div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8 !ml-0 ">
 								<Card key={1} />
 								<Card key={2} />
 								<Card key={3} />

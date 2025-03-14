@@ -8,8 +8,8 @@ const Ranking = () => {
 				Bạn thấy bài viết như thế nào?
 			</h2>
 			<p>4 phản hồi</p>
-			<div className="mt-6 flex justify-center">
-				<div className="flex gap-[32px]">
+			<div className="mt-6 flex justify-center ">
+				<div className="flex gap-[16px] lg:gap-[32px] flex-wrap justify-center">
 					{[
 						{
 							imgUrl: 'https://s3-alpha-sig.figma.com/img/ee50/301f/f1a1efe576767cd2abd3f1ae0f0968d0?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=mEQI~ApNA8oYwneAm2y5zjbs~tlm9-97GSUOFHocM1x4LkawbHnmzMv62Bymrm8VA6bprkXTnCAOD9Abac6vkWypqfQ0wHg6uw7MkJoV2VA6C5cAyRBw6TiHhamAQxuYh6-0p84lZByUzHc7MQcgSij-1MtzU5vyr4FbvbQowzM0jCZ6ENHO44i7PWAZxYDYOBmsijFKIeyHepbbGgiCMYcWGrZe2jZTgb6NG4P-bkDEl99tZRKGom9~ZCIGwJoEvcmXbl2-2EB5JnOtipGmCIaQ5nX2Vy4~KWkIedMF5eLzlWoWhRXJKELViGsR5ZrucuvmragvoU53u3WbaIkWrg__',
@@ -45,7 +45,7 @@ const Ranking = () => {
 					].map((item) => (
 						<div
 							key={item.name}
-							className={`text-sm  rounded-sm gap-1 py-1 px-[21px] flex flex-col items-center ${
+							className={`text-sm w-[100px] rounded-sm gap-1 py-1 px-[21px] flex flex-col items-center ${
 								item?.checked
 									? 'border-green-500 border-2 '
 									: 'hover:cursor-pointer'
