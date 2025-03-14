@@ -1,6 +1,8 @@
 import React from 'react';
-
-const DropdownIcon = (props = {}) => {
+interface IProps {
+	className?: string;
+}
+const DropdownIcon = (props: IProps = {}) => {
 	return (
 		<svg
 			width={11}

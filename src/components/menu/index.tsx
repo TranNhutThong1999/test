@@ -28,7 +28,7 @@ const Menu = () => {
 						/>
 					</div>
 
-					<ul className="flex gap-[8px] font-medium">
+					<ul className="mt-[10px] flex gap-[8px] font-medium">
 						<li className="hover:text-black p-[8px]">
 							<a href="#">Về Chúng tôi</a>
 						</li>
