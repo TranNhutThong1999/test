@@ -1,11 +1,11 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import DropdownIcon from '@/components/ui/svg/DropdownIcon';
-import FlatIcon from '@/components/ui/svg/FlagIcon';
-import LoadMoreIcon from '@/components/ui/svg/LoadMoreIcon';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import DropdownIcon from '@/styles/icons/DropdownIcon';
+import LoadMoreIcon from '@/styles/icons/LoadMoreIcon';
+import FlagIcon from '@/styles/icons/FlagIcon';
 
 const Menu = () => {
 	const router = useRouter();
@@ -15,7 +15,7 @@ const Menu = () => {
 	};
 
 	return (
-		<div className="flex justify-center p-[24px] text-sm text-[#25272A]">
+		<div className="flex justify-center p-[24px] text-sm text-[#25272A] sticky top-0 bg-[#F9FBFC] z-10">
 			<nav className="flex items-center justify-center px-6 py-3 rounded-[40px] bg-white shadow-sm max-w-[1280px]">
 				<div className="flex items-center gap-[64px]">
 					<div className="flex items-center space-x-2">
@@ -37,15 +37,17 @@ const Menu = () => {
 							<button className="flex items-center hover:text-black p-[8px] gap-[8px]">
 								<div className="flex-col">
 									Giải pháp
-									<div className="flex justify-center mt-1">
+									<div className="flex justify-center ">
 										<div className="size-1 "></div>
 									</div>
 								</div>
-								<DropdownIcon />
+								<div className="pb-1">
+									<DropdownIcon />
+								</div>
 							</button>
 							<ul className="absolute left-0 pt-2 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block">
 								<li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-									Blog
+									Giải pháp 1
 								</li>
 							</ul>
 						</li>
@@ -58,7 +60,9 @@ const Menu = () => {
 										<div className="size-1.5 bg-[#1AD598] border-none rounded-full ml-1"></div>
 									</div>
 								</div>
-								<DropdownIcon />
+								<div className="pb-2.5">
+									<DropdownIcon />
+								</div>
 							</button>
 
 							<ul className="absolute left-0 pt-2 w-48 bg-white shadow-lg rounded-lg hidden group-hover:block">
@@ -89,7 +93,7 @@ const Menu = () => {
 
 					<div className="flex items-center gap-[8px]">
 						<button className="flex items-center bg-gray-200 px-3 py-2 rounded-full">
-							<FlatIcon className="w-5 h-5" />
+							<FlagIcon className="w-5 h-5" />
 							<span className="mx-2">VI</span>
 							<DropdownIcon />
 						</button>
