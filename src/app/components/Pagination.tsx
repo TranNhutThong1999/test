@@ -14,7 +14,7 @@ const pagination = () => {
 				</span>
 			</a>
 
-			<div className="flex items-center ">
+			<div className="flex items-center flex-wrap justify-center ">
 				<span className="px-[17px] py-2 bg-[#D1F7EA] text-[#052B1E] rounded-[10px]">
 					1
 				</span>
