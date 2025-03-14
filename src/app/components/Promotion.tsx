@@ -37,7 +37,7 @@ const Promotion = () => {
 					</button>
 				</div>
 			</div>
-			<div className=" mt-[32px] lg:mt-0 py-[61px] overflow-hidden rounded-[20px] bg-[linear-gradient(36.82deg,#013DA0_2.16%,#0142A9_12.83%,#0148B3_23.51%,#024EBC_34.18%,#0254C5_44.85%,#025ACE_55.53%,#0261D7_66.2%,#0267E1_76.87%,#036EEA_87.55%,#0375F3_98.22%)]">
+			<div className=" mt-[24px] lg:mt-0 py-[61px] overflow-hidden rounded-[20px] bg-[linear-gradient(36.82deg,#013DA0_2.16%,#0142A9_12.83%,#0148B3_23.51%,#024EBC_34.18%,#0254C5_44.85%,#025ACE_55.53%,#0261D7_66.2%,#0267E1_76.87%,#036EEA_87.55%,#0375F3_98.22%)]">
 				<Image
 					src="/Group1.png"
 					alt="Logo"

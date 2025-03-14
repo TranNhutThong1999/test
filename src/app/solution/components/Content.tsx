@@ -41,7 +41,7 @@ const Content = () => {
 						</div>
 					</div>
 
-					<div className="flex items-center gap-4">
+					<div className="flex items-center gap-4 flex-wrap">
 						<div className="flex items-center gap-3 text-[#667F93]">
 							<ScheduleIcon />
 							<span>
@@ -49,7 +49,7 @@ const Content = () => {
 							</span>
 						</div>
 
-						<div className="h-5 w-px bg-gray-300"></div>
+						<div className="h-5 w-px bg-gray-300 hidden sm:block"></div>
 
 						<div className="flex items-center gap-3 text-[#667F93]">
 							<LockIcon />
@@ -74,7 +74,7 @@ const Content = () => {
 				</div>
 				<div className="flex items-start rounded-lg ">
 					<div>
-						<QuoteIcon className="size-[50px]" />
+						<QuoteIcon className="size-[40px] sm:size-[50px]" />
 					</div>
 					<p className="p-4 pt-8 font-raleway text-[#33404A] font-medium italic text-[20px] leading-[24px] tracking-[0%] text-center">
 						Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S
