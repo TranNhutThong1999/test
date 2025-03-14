@@ -9,8 +9,8 @@ const Content = () => {
 			<div className="font-extrabold text-[36px] leading-[200%] mb-[24px]">
 				Tất cả bài viết
 			</div>
-			<div className="grid grid-cols-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl ">
-				<div className="col-span-1 flex items-center justify-center">
+			<div className="grid py-4 sm:py-0 grid-cols-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl ">
+				<div className="col-span-2 sm:col-span-1 flex items-center justify-center">
 					<div className="max-w-[350px] ml-4 ">
 						<h2 className=" font-bold text-xl  sm:text-3xl lg:text-4xl ">
 							Gia nhập cộng đồng <br />
@@ -24,7 +24,7 @@ const Content = () => {
 						</button>
 					</div>
 				</div>
-				<div className="col-span-1">
+				<div className="hidden sm:block col-span-1 ">
 					<Image
 						src="/group.png"
 						alt="Logo"
