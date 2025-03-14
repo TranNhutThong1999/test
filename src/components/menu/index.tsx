@@ -10,12 +10,12 @@ import { FiMenu, FiX } from 'react-icons/fi';
 
 const Menu = () => {
 	const router = useRouter();
-	const [isOpen, setIsOpen] = useState(false);
+	const [isOpen, setIsOpen] = useState<boolean>(false);
 
-	const toggleMenu = () => {
+	const toggleMenu = (): void => {
 		setIsOpen(!isOpen);
 	};
-	const handleClickHome = () => {
+	const handleClickHome = (): void => {
 		router.push('/');
 	};
 

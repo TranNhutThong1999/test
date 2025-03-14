@@ -16,21 +16,15 @@ const Breadcrumb = ({ data }: IBreadcrumbProps) => {
 					{pathname != item.path ? (
 						<>
 							<Link
-								key={item.key}
 								href={item.path}
 								className="hover:text-gray-700 hover:cursor-pointer"
 							>
 								{item?.name}
 							</Link>
-							{index < data.length - 1 && (
-								<span key={item.key}> &gt; </span>
-							)}
+							{index < data.length - 1 && <span> &gt; </span>}
 						</>
 					) : (
-						<span
-							key={item.key}
-							className="font-semibold text-black"
-						>
+						<span className="font-semibold text-black">
 							{item?.name}
 						</span>
 					)}
