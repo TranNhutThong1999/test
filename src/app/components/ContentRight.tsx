@@ -34,7 +34,7 @@ const categories = [
 
 const ContentRight = () => {
 	return (
-		<div className="sm:col-span-4 lg:col-span-1 sm:order-1 lg:order-2">
+		<div className="col-span-4 lg:col-span-1 order-1 lg:order-2">
 			<div className="font-extrabold text-[36px] leading-[200%] mb-[24px]">
 				Tìm kiếm
 			</div>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Promotion = () => {
 	return (
-		<div className="grid grid-cols-2 lg:grid-cols-1 gap-[32px]">
+		<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-[32px]">
 			<div className=" py-[61px] flex flex-col justify-around overflow-hidden rounded-[20px] mt-[32px] bg-[linear-gradient(36.82deg,#013DA0_2.16%,#0142A9_12.83%,#0148B3_23.51%,#024EBC_34.18%,#0254C5_44.85%,#025ACE_55.53%,#0261D7_66.2%,#0267E1_76.87%,#036EEA_87.55%,#0375F3_98.22%)]">
 				<div className="flex justify-end relative h-[262px]">
 					<Image

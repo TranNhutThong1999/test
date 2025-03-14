@@ -5,7 +5,7 @@ import LoadMoreIcon2 from '@/styles/icons/LoadMoreIcon2';
 
 const Content = () => {
 	return (
-		<div className="sm:col-span-4 lg:col-span-3  sm:order-2 lg:order-1">
+		<div className="col-span-4 lg:col-span-3  order-2 lg:order-1">
 			<div className="font-extrabold text-[36px] leading-[200%] mb-[24px]">
 				Tất cả bài viết
 			</div>
@@ -33,7 +33,7 @@ const Content = () => {
 					/>
 				</div>
 			</div>
-			<div className="mt-[48px] grid grid-cols-2 gap-x-[32px] gap-y-[48px]">
+			<div className="mt-[48px] grid grid-cols-1 md:grid-cols-2 gap-x-[32px] gap-y-[48px]">
 				<Card key={1} />
 				<Card key={2} />
 				<Card key={3} />

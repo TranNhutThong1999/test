@@ -29,7 +29,7 @@ export default function Home() {
 			<div className="bg-[#F9FBFC] pb-5">
 				<Menu />
 				<div className="flex justify-around">
-					<div className="flex justify-center items-center sm:hidden xl:flex">
+					<div className="justify-center items-center hidden xl:flex">
 						<Image
 							src="/schedule.png"
 							alt="Logo"
@@ -79,7 +79,7 @@ export default function Home() {
 							sản xuất ngay!
 						</div>
 					</div>
-					<div className="flex justify-center items-center sm:hidden xl:flex">
+					<div className="hidden justify-center items-center xl:flex">
 						<Image
 							src="/pen.png"
 							alt="Logo"
