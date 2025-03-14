@@ -6,7 +6,7 @@ const pagination = () => {
 		<div className="flex items-center justify-around space-x-4 text-gray-600 mt-[72px] text-base font-semibold">
 			<a
 				href="#"
-				className="flex items-center space-x-1 text-[#B3C5D4] hover:text-gray-700"
+				className=" hidden sm:flex items-center space-x-1 text-[#B3C5D4] hover:text-gray-700"
 			>
 				<span className="flex gap-3 items-center">
 					<VectorRight className="rotate-180 text-[#B3C5D4]" /> Trang
@@ -53,7 +53,7 @@ const pagination = () => {
 
 			<a
 				href="#"
-				className="flex items-center space-x-1 text-gray-500 hover:text-gray-700"
+				className=" hidden sm:flex items-center space-x-1 text-gray-500 hover:text-gray-700"
 			>
 				<span className="flex gap-3 items-center">
 					Trang kế tiếp <VectorRight />

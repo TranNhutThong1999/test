@@ -74,7 +74,7 @@ export default function Home() {
 								</span>
 							</div>
 						</div>
-						<div className="flex justify-center mb-[16px]">
+						<div className="flex justify-center mb-[16px] px-6 text-center">
 							Cùng FOSO khám phá kiến thức, xu hướng công nghệ và
 							sản xuất ngay!
 						</div>
