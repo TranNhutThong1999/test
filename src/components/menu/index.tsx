@@ -22,18 +22,17 @@ const Menu = () => {
 	return (
 		<div className="flex justify-center p-[24px] text-sm text-[#25272A] sticky top-0 bg-[#F9FBFC] z-10">
 			<nav className="flex items-center justify-center px-6 py-3 rounded-[40px] bg-white shadow-sm max-w-[1280px]">
-				<div className="flex items-center gap-[64px]">
-					<div className="flex items-center space-x-2">
+				<div className="flex items-center  md:gap-[64px]">
+					<div className="flex items-center space-x-2 flex-1">
 						<Image
 							src="/FOSO_Logo_Final_1-1400x579.png"
 							alt="Logo"
 							width={134}
 							height={55}
-							priority
 						/>
 					</div>
 					<button
-						className="text-2xl md:hidden"
+						className="md:hidden mx-5"
 						onClick={toggleMenu}
 						aria-label="Toggle Menu"
 					>

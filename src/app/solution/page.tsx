@@ -62,7 +62,7 @@ const Page = () => {
 				</div>
 
 				<div className="grid grid-cols-12 min-h-screen mt-[52px]">
-					<div className="col-span-1 flex justify-center  ">
+					<div className="hidden sm:flex col-span-1 justify-center  ">
 						<div className=" hidden md:block text-center space-x-2 fixed">
 							<div className="font-extrabold text-base mb-2">
 								Chia sẻ
@@ -87,8 +87,8 @@ const Page = () => {
 						</div>
 					</div>
 
-					<div className="grid grid-cols-10 col-span-10 col-start-2 gap-[48px]">
-						<div className=" col-span-10 lg:col-span-7  order-2 lg:order-1">
+					<div className="grid grid-cols-10 col-span-10 col-start-2 lg:gap-[48px]">
+						<div className=" col-span-10 lg:col-span-7 order-2 lg:order-1">
 							<Content />
 						</div>
 						<div className=" col-span-10 lg:col-span-3 order-1 lg:order-2">
