@@ -12,7 +12,7 @@ const Content = () => {
 			<div className="grid grid-cols-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl ">
 				<div className="col-span-1 flex items-center justify-center">
 					<div className="max-w-[350px] ml-4 ">
-						<h2 className=" font-bold text-xl sm:text-2xl lg:text-4xl leading-[100%]">
+						<h2 className=" font-bold text-xl  sm:text-3xl lg:text-4xl ">
 							Gia nhập cộng đồng <br />
 							<span className="text-white">
 								FMRP – Kết nối, chia sẻ, cùng phát triển!
