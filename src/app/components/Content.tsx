@@ -5,14 +5,14 @@ import LoadMoreIcon2 from '@/styles/icons/LoadMoreIcon2';
 
 const Content = () => {
 	return (
-		<div className="col-span-3">
+		<div className="sm:col-span-4 lg:col-span-3  sm:order-2 lg:order-1">
 			<div className="font-extrabold text-[36px] leading-[200%] mb-[24px]">
 				Tất cả bài viết
 			</div>
 			<div className="grid grid-cols-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl ">
 				<div className="col-span-1 flex items-center justify-center">
-					<div className="w-[350px]">
-						<h2 className=" font-bold text-[36px] leading-[100%]">
+					<div className="max-w-[350px]">
+						<h2 className=" font-bold sm:text-[24px] lg:text-[36px] leading-[100%]">
 							Gia nhập cộng đồng <br />
 							<span className="text-white">
 								FMRP – Kết nối, chia sẻ, cùng phát triển!

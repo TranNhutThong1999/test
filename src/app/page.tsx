@@ -29,7 +29,7 @@ export default function Home() {
 			<div className="bg-[#F9FBFC] pb-5">
 				<Menu />
 				<div className="flex justify-around">
-					<div className="flex justify-center items-center">
+					<div className="flex justify-center items-center sm:hidden xl:flex">
 						<Image
 							src="/schedule.png"
 							alt="Logo"
@@ -79,7 +79,7 @@ export default function Home() {
 							sản xuất ngay!
 						</div>
 					</div>
-					<div className="flex justify-center items-center">
+					<div className="flex justify-center items-center sm:hidden xl:flex">
 						<Image
 							src="/pen.png"
 							alt="Logo"
@@ -89,7 +89,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="grid grid-cols-12 min-h-screen mt-[96px]">
-					<div className="grid grid-cols-4 col-span-10 col-start-2  gap-[32px]">
+					<div className="grid grid-cols-4 col-span-10 col-start-2 gap-[32px] ">
 						<Content />
 						<ContentRight />
 					</div>

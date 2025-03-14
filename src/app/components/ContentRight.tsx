@@ -33,11 +33,11 @@ const categories = [
 
 const ContentRight = () => {
 	return (
-		<div className="col-span-1">
+		<div className="sm:col-span-4 lg:col-span-1 sm:order-1 lg:order-2">
 			<div className="font-extrabold text-[36px] leading-[200%] mb-[24px]">
 				Tìm kiếm
 			</div>
-			<div className="w-full max-w-xl mx-auto text-[16px] ">
+			<div className="w-full mx-auto text-[16px] ">
 				<div className="relative bg-white px-2 py-3 rounded-2xl shadow-xl flex items-center">
 					<input
 						type="text"
