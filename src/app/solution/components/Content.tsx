@@ -16,7 +16,7 @@ const Content = () => {
 						Quản Lý Sản Xuất
 					</span>
 				</div>
-				<h1 className="font-raleway font-extrabold text-[36px] leading-[100%] tracking-normal align-middle capitalize">
+				<h1 className="font-raleway font-extrabold text-4xl  tracking-normal align-middle capitalize">
 					Quy trình 5S là gì? Cách ứng dụng hiệu quả nên biết
 				</h1>
 
