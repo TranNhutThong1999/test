@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Ranking from './Ranking';
 import ScheduleIcon from '@/styles/icons/ScheduleIcon';
 import LockIcon from '@/styles/icons/LockIcon';
+import QuoteIcon from '@/styles/icons/QuoteIcon';
 
 const h2 = 'text-[#15AA7A] font-bold text-lg pt-2';
 
@@ -71,8 +72,11 @@ const Content = () => {
 						Quy trình 5s là gì?
 					</div>
 				</div>
-				<div className="flex items-start gap-3  p-4 rounded-lg mt-[36px]">
-					<p className="font-raleway text-[#33404A] font-medium italic text-[20px] leading-[24px] tracking-[0%] text-center">
+				<div className="flex items-start rounded-lg ">
+					<div>
+						<QuoteIcon className="size-[50px]" />
+					</div>
+					<p className="p-4 pt-8 font-raleway text-[#33404A] font-medium italic text-[20px] leading-[24px] tracking-[0%] text-center">
 						Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S
 						là gì? Xây dựng 5S cần yếu tố gì? Bài viết dưới đây của
 						FOSO sẽ trả lời cho bạn thông tin chi tiết về mô hình

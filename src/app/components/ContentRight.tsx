@@ -1,4 +1,5 @@
 import LookingIcon from '@/styles/icons/LookingIcon';
+import Promotion from './Promotion';
 
 const categories = [
 	{
@@ -68,6 +69,7 @@ const ContentRight = () => {
 					))}
 				</ul>
 			</div>
+			<Promotion />
 		</div>
 	);
 };

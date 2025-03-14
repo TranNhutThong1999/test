@@ -1,4 +1,5 @@
 'use client';
+import Promotion from '@/app/components/Promotion';
 import DropdownIcon from '@/styles/icons/DropdownIcon';
 import React, { useState } from 'react';
 
@@ -104,6 +105,7 @@ const ContentRight = () => {
 					<></>
 				)}
 			</div>
+			<Promotion />
 		</div>
 	);
 };

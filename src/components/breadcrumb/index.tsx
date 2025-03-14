@@ -11,24 +11,31 @@ const Breadcrumb = ({ data }: IBreadcrumbProps) => {
 	const pathname = usePathname();
 	return (
 		<nav className="text-gray-500 text-sm">
-			{data?.map((item, index) =>
-				pathname != item.path ? (
-					<>
-						<Link
+			{data?.map((item, index) => (
+				<span key={index}>
+					{pathname != item.path ? (
+						<>
+							<Link
+								key={item.key}
+								href={item.path}
+								className="hover:text-gray-700 hover:cursor-pointer"
+							>
+								{item?.name}
+							</Link>
+							{index < data.length - 1 && (
+								<span key={item.key}> &gt; </span>
+							)}
+						</>
+					) : (
+						<span
 							key={item.key}
-							href={item.path}
-							className="hover:text-gray-700 hover:cursor-pointer"
+							className="font-semibold text-black"
 						>
 							{item?.name}
-						</Link>
-						{index < data.length - 1 && <span> &gt; </span>}
-					</>
-				) : (
-					<span key={item.key} className="font-semibold text-black">
-						{item?.name}
-					</span>
-				)
-			)}
+						</span>
+					)}
+				</span>
+			))}
 		</nav>
 	);
 };
