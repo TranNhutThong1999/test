@@ -64,7 +64,7 @@ export default function Home() {
 							<span className=" font-bold bg-gradient-to-r from-[#5CBF94] to-[#79C6A5] text-transparent bg-clip-text">
 								FOSO
 							</span>{' '}
-							–
+							<br className=" block sm:hidden" />–
 							<br />
 							Cập Nhật Tin Tức{' '}
 							<div className="relative inline-block ">
